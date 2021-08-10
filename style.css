@@ -9,15 +9,6 @@ body {
     background-color: #8b5ceb;
 }
 
-header {
-    text-align: center;
-    margin-top: 1rem;
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: #f0f0f0;
-    letter-spacing: 1px;
-}
-
 .wrapper {
     position: absolute;
     width: 90vmin;
@@ -66,18 +57,9 @@ textarea {
     font-size: 32px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 2rem;
-    color: #f0f0f0;
-    letter-spacing: 1px;
-}
-
 @media only screen and (max-width: 600px) {
     .wrapper {
+        margin-top: 2rem;
         width: 95%;
     }
     .container {
